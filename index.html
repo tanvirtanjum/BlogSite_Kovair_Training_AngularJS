@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AngularJS</title>
+    <title>AngularJS | Task Manager</title>
 
     <script src="./assets/angularjs/angularjs.js"></script>
     <script src="./assets/jquery/jquery.js"></script>
@@ -33,7 +33,7 @@
 
         <div class="container-fluid" align="center">
             <!-- Button trigger modal -->
-            <button type="button" id="btnAddRequest" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#taskModal">
+            <button type="button" id="btnAddRequest" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#taskModal">
                 <i class="fa-solid fa-plus"></i> ADD NEW TASK
             </button>
         </div>
@@ -51,12 +51,12 @@
 
                     <div class="form-floating mb-2">
                         <input type="text" class="form-control" id="Title" placeholder="Title" ng-model="Title">
-                        <label for="Title">Title</label>
+                        <label for="Title"><i class="fa-regular fa-pen-to-square"></i> Title</label>
                     </div>
                       
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="Description" ng-model="Description" style="height: 30vh;"></textarea>
-                        <label for="Description">Description</label>
+                        <label for="Description"><i class="fa-regular fa-pen-to-square"></i> Description</label>
                     </div>
                 </div>
                 <div class="modal-footer">
